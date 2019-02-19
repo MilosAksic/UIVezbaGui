@@ -1,14 +1,24 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+* {
+    box-sizing: border-box;
+}
+
+
 body {
-    background-color: #4e6cb5
+    background-color: #4e6cb5;
+    font-family: 'Roboto', sans-serif;
 }
 #main-Div{
     margin: 0 auto;
-    width: 700px;
+    width: 500px;
     background-color: white;
-    height: 1000px;
+    height: 700px;
     margin-top: 50px;
+    margin-bottom: 50px;
     position:relative;
+    
 }
 #gore {
     color: white;
@@ -21,17 +31,52 @@ body {
 }
 #procenat {
     border: 2px solid white;
-    border-radius: 50%;
+    border-radius: 100%;
     padding: 4px;
 }
 .levo {
     float: left;
 }
 #dva {
-    margin-top: 29px;
+    margin-top: 30px;
 }
 #jedan {
     margin-top: 50px;
     margin-right: 20px;
-    margin-left : 19px
+    margin-left : 20px
+}
+
+#dole {
+    padding-top: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.animation-circle {
+    display: inline-block;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .3);
+    color: #39a4f5;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 34px;
+}
+#procenat1 {
+    color: white;
+}
+
+#FirstName:focus {
+    border-bottom: 2px blue solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    outline: none
+}
+.form-group {
+    position: relative;
+}
+input {
+    outline: none
 }
