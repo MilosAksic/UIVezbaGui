@@ -1,1 +1,37 @@
 
+body {
+    background-color: #4e6cb5
+}
+#main-Div{
+    margin: 0 auto;
+    width: 700px;
+    background-color: white;
+    height: 1000px;
+    margin-top: 50px;
+    position:relative;
+}
+#gore {
+    color: white;
+    background-color: #2196f3;
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+#procenat {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 4px;
+}
+.levo {
+    float: left;
+}
+#dva {
+    margin-top: 30px;
+}
+#jedan {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left : 20px
+}
